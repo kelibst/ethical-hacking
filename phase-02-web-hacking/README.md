@@ -4,6 +4,26 @@
 
 ---
 
+## 🎓 Phase 2 Core Resources — Watch / Study Before Starting
+
+### 🆓 Free Full Courses
+| Course | Platform | URL | Notes |
+|--------|----------|-----|-------|
+| **Web Security Academy** | PortSwigger (official) | https://portswigger.net/web-security | 280+ free interactive labs — your main training ground |
+| **OWASP Top 10 2021** | OWASP (free) | https://owasp.org/Top10/ | Official reference for all vulnerability categories |
+| **Web Application Pen Testing for Beginners** | freeCodeCamp / YouTube | https://www.youtube.com/watch?v=gTpkGgJ9G9g | 2.5 hr course covering Nmap, Burp, Nikto |
+| **Hacker101** | HackerOne (free) | https://www.hacker101.com/ | Free video course, maps to bug bounty skills |
+
+### 📺 Key YouTube Channels for This Phase
+| Channel | Best For | URL |
+|---------|----------|-----|
+| **Rana Khalil** | Best PortSwigger lab walkthroughs, deep technique explanations | https://www.youtube.com/@RanaKhalil101 |
+| **HackerSploit** | OWASP Top 10 practicals, Burp Suite workflow | https://www.youtube.com/@HackerSploit |
+| **John Hammond** | XSS, JWT, API hacking in CTF and real contexts | https://www.youtube.com/@_JohnHammond |
+| **TCM Security** | Web pentesting methodology, BOLA, IDOR | https://www.youtube.com/@TCMSecurityAcademy |
+
+---
+
 ## Primary Practice Platform
 
 | Platform | URL | Cost |
@@ -25,6 +45,14 @@
 | PortSwigger: NoSQL Injection | https://portswigger.net/web-security/nosql-injection |
 | PortSwigger: Command Injection | https://portswigger.net/web-security/os-command-injection |
 | PayloadsAllTheThings (SQLi) | https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [SQL Injection for Beginners](https://www.youtube.com/watch?v=1nJgupaUPEQ) | Rana Khalil | Deep, methodical explanation of every SQLi type |
+| [SQL Injection — PortSwigger Lab 1 Walkthrough](https://www.youtube.com/watch?v=X1X1UdaC_90) | Rana Khalil | See the lab workflow before attempting it yourself |
+| [NoSQL Injection Tutorial](https://www.youtube.com/watch?v=whuIf33v2Ug) | HackerSploit | MongoDB NoSQL injection — directly relevant to your stack |
+| [Command Injection Explained](https://www.youtube.com/watch?v=27Agc6Xg2HE) | John Hammond | Real-world OS command injection from a CTF context |
 
 ### Key Concept: SQL Injection
 ```javascript
@@ -72,6 +100,13 @@ exec(`ping ${req.query.host}`, callback)
 | PortSwigger: CSRF | https://portswigger.net/web-security/csrf |
 | XSS Cheat Sheet | https://portswigger.net/web-security/cross-site-scripting/cheat-sheet |
 
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [XSS (Cross-Site Scripting) Explained](https://www.youtube.com/watch?v=EoaDgUgS6QA) | Rana Khalil | Complete XSS breakdown — reflected, stored, DOM |
+| [DOM XSS Explained](https://www.youtube.com/watch?v=26KPWZ_HmE4) | HackerSploit | DOM-based XSS with live examples |
+| [CSRF Attack Explained](https://www.youtube.com/watch?v=eWEgUcHPle0) | HackerSploit | How CSRF tokens work and when they fail |
+
 ### Key Concept: How Attackers Bypass React's XSS Protection
 ```jsx
 // React IS safe:
@@ -106,6 +141,12 @@ document.getElementById('output').innerHTML = location.hash.slice(1)
 | PortSwigger: SSRF | https://portswigger.net/web-security/ssrf |
 | PortSwigger: Path Traversal | https://portswigger.net/web-security/file-path-traversal |
 
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [SSRF Explained](https://www.youtube.com/watch?v=ih5R_c16bKc) | Rana Khalil | Full SSRF concept, bypass techniques, AWS meta-data attacks |
+| [File Path Traversal Explained](https://www.youtube.com/watch?v=OECe8FWHmUc) | Rana Khalil | Directory traversal — clear walk of every bypass variant |
+
 ### Key Concept: SSRF in Next.js API Routes
 ```javascript
 // Vulnerable Next.js API route — URL from user input
@@ -134,6 +175,13 @@ export async function GET(req) {
 | PortSwigger: IDOR | https://portswigger.net/web-security/access-control/idor |
 | JWT.io Debugger | https://jwt.io |
 
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [JWT Security Explained](https://www.youtube.com/watch?v=7Q17ubqLfaM) | Rana Khalil | The alg:none, RS256→HS256, and kid injection attacks in one video |
+| [IDOR Explained for Beginners](https://www.youtube.com/watch?v=MKS-SCtVGiA) | TCM Security | IDOR/BOLA — most common real-world bug bounty vulnerability |
+| [OAuth 2.0 Attack Explained](https://www.youtube.com/watch?v=ZDuX-obcTdU) | Rana Khalil | OAuth misconfigurations and token theft |
+
 ### Key Concept: JWT Algorithm Confusion
 ```
 Attack 1: alg:none — Some servers skip signature verification
@@ -157,6 +205,12 @@ Attack 3: kid injection — "kid": "../../dev/null" to forge any token
 | PortSwigger: API Testing | https://portswigger.net/web-security/api-testing |
 | OWASP API Security Top 10 | https://owasp.org/www-project-api-security/ |
 | InQL Burp Extension | https://portswigger.net/bappstore/296e9a0730384be4855c0a2bfa9a74fc |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [API Penetration Testing - Full Course](https://www.youtube.com/watch?v=CkVvB5aQLFg) | TCM Security | Comprehensive REST and GraphQL API hacking, uses real targets |
+| [GraphQL Hacking — Introspection and More](https://www.youtube.com/watch?v=NPDp7GHmMa4) | HackerSploit | Practical GraphQL exploitation and introspection abuse |
 
 ### Key Concept: GraphQL Introspection
 ```graphql

@@ -6,6 +6,25 @@
 
 ---
 
+## 🎓 Phase 6 Core Resources — Study Before Your Capstone
+
+### 🆓 Free Full Courses
+| Course | Platform | URL | Notes |
+|--------|----------|-----|-------|
+| **Jr Penetration Tester Path** | TryHackMe | https://tryhackme.com/path/outline/jrpenetrationtester | Complete this path if not already — bridges everything |
+| **Pentest+ Study Guide** | Professor Messer (Free) | https://www.professormesser.com | Free video series for report methodology and scoping |
+
+### 📺 Key YouTube Resources for This Phase
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [How to Write a Pentest Report](https://www.youtube.com/watch?v=EOoBAXeABfg) | TCM Security | The industry standard for report writing \u2014 watch before writing your own |
+| [Hack The Box Starting Point Tier 2 — Archetype](https://www.youtube.com/watch?v=UGkFE-Nq4HM) | IppSec | Full walkthrough of an HTB machine with web + PrivEsc chain |
+| [Mr. Robot Walkthrough \u2014 VulnHub](https://www.youtube.com/watch?v=t6RuSq1_bM4) | HackerSploit | Walthrough of the Mr. Robot VM \u2014 your Option B capstone target |
+| [How to document your hacking \u2014 note taking tips](https://www.youtube.com/watch?v=MQGozZzHUwQ) | TCM Security | Note-taking during an engagement \u2014 how to capture everything you need |
+| [Bug Bounty vs Pentest Report Writing](https://www.youtube.com/watch?v=Z3AuHuMrMWk) | Rana Khalil | How reports differ between bug bounty and professional pentesting |
+
+---
+
 ## Objective
 
 Perform a complete penetration test against a realistic target that requires:

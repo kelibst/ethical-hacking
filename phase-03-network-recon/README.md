@@ -5,6 +5,24 @@
 
 ---
 
+## 🎓 Phase 3 Core Resources — Watch / Study Before Starting
+
+### 🆓 Free Full Courses
+| Course | Platform | URL | Notes |
+|--------|----------|-----|-------|
+| **Ethical Hacker** (Modules 3–4) | Cisco Networking Academy | https://skillsforall.com/course/ethical-hacker | Covers network scanning and enumeration in depth |
+| **Jr Penetration Tester Path** | TryHackMe | https://tryhackme.com/path/outline/jrpenetrationtester | Structured path with free network rooms |
+
+### 📺 Key YouTube Resources for This Phase
+| Video / Channel | Best For | URL |
+|---------|----------|-----|
+| **[Ethical Hacking Full Course — freeCodeCamp](https://www.youtube.com/watch?v=3Kq1MIfTWCE)** | 15-hr course, covers Nmap, Metasploit, enumeration | https://www.youtube.com/watch?v=3Kq1MIfTWCE |
+| **NetworkChuck** | Nmap beginners, network concepts | https://www.youtube.com/@NetworkChuck |
+| **David Bombal** | Wireshark, advanced Nmap, protocol analysis | https://www.youtube.com/@davidbombal |
+| **IppSec (ippsec.rocks)** | HTB walkthroughs showing real enumeration flow | https://ippsec.rocks |
+
+---
+
 ## What You'll Learn
 - Systematic host and service discovery with Nmap
 - Enumerating high-value services: SMB, FTP, SSH, DNS, HTTP
@@ -33,6 +51,13 @@
 | Nmap Official Book | https://nmap.org/book/toc.html |
 | Nmap NSE Script List | https://nmap.org/nsedoc/ |
 | TryHackMe: Nmap Room | https://tryhackme.com/room/furthernmap |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [NMAP Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ) | NetworkChuck | Most beginner-friendly, full breakdown of all key flags |
+| [Nmap for Ethical Hackers — Full Tutorial](https://www.youtube.com/watch?v=a1J2KeEy0Zs) | David Bombal | Advanced Nmap including NSE scripts and output parsing |
+| [Full Nmap Tutorial](https://www.youtube.com/watch?v=5MTZdN9TEO4) | HackerSploit | Methodical enumeration from a pentester’s perspective |
 
 ### Core Nmap Techniques
 
@@ -96,6 +121,13 @@ PORT     STATE  SERVICE  VERSION
 | HackTricks (massive reference) | https://book.hacktricks.xyz |
 | TryHackMe: Network Services | https://tryhackme.com/room/networkservices |
 | enum4linux-ng | https://github.com/cddmp/enum4linux-ng |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [SMB Enumeration — Metasploitable 2](https://www.youtube.com/watch?v=70sPTJzgDWE) | HackerSploit | Hands-on SMB enum against the same target you’ll use |
+| [FTP Exploitation Tutorial](https://www.youtube.com/watch?v=GkSLFd-VfvQ) | HackerSploit | Anonymous FTP, banner grabbing, vsftpd recon |
+| [DNS Enumeration for Beginners](https://www.youtube.com/watch?v=Y4qjPEMOGLA) | HackerSploit | Zone transfers and subdomain discovery |
 
 ### SMB (Port 445) — Windows File Sharing
 ```bash
@@ -168,6 +200,12 @@ curl -I http://192.168.56.101
 | SecLists (wordlists) | https://github.com/danielmiessler/SecLists |
 | ffuf | https://github.com/ffuf/ffuf |
 | gobuster | https://github.com/OJ/gobuster |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [ffuf — Fast Web Fuzzer Tutorial](https://www.youtube.com/watch?v=aN3Nayvd7FU) | HackerSploit | Covers directory, file, and subdomain fuzzing with real examples |
+| [Directory Enumeration with gobuster](https://www.youtube.com/watch?v=e83lp6b3NUw) | NetworkChuck | Beginner-friendly walkthrough, explains every flag |
 
 ### Install SecLists (Essential Wordlists)
 ```bash

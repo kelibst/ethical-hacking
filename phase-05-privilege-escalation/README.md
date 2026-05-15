@@ -5,6 +5,25 @@
 
 ---
 
+## 🎓 Phase 5 Core Resources — Watch / Study Before Starting
+
+### 🆓 Free Full Courses
+| Course | Platform | URL | Notes |
+|--------|----------|-----|-------|
+| **Linux PrivEsc Room** | TryHackMe (Free) | https://tryhackme.com/room/linprivesc | Best hands-on free Linux PrivEsc lab |
+| **Linux PrivEsc Arena** | TryHackMe (Free) | https://tryhackme.com/room/linuxprivescarena | Practice multiple techniques on one machine |
+| **Windows PrivEsc Room** | TryHackMe (Free) | https://tryhackme.com/room/windows10privesc | Dedicated Windows privilege escalation lab |
+
+### 📺 Key YouTube Resources for This Phase
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [Linux Privilege Escalation — TCM Full Course Segment](https://www.youtube.com/watch?v=ZTnwg3qCdVM) | TCM Security | The most comprehensive free Linux PrivEsc course, covers every technique |
+| [Windows Privilege Escalation for Beginners](https://www.youtube.com/watch?v=uTcrbNBcoxQ) | TCM Security | Same quality, focused on Windows — unquoted paths, services, tokens |
+| [LinPEAS Explained — How to Read the Output](https://www.youtube.com/watch?v=bBMPCzjca_s) | HackerSploit | Walk through a real LinPEAS output and prioritize findings |
+| [GTFOBins — How to Use It](https://www.youtube.com/watch?v=IgHDLpOzPMM) | HackerSploit | Using GTFOBins for SUID and sudo abuse |
+
+---
+
 ## What You'll Learn
 - How to systematically enumerate a Linux/Windows system for privilege escalation paths
 - The most common and reliable PrivEsc techniques for both platforms
@@ -34,6 +53,13 @@
 | GTFOBins | https://gtfobins.github.io |
 | HackTricks — Linux PrivEsc | https://book.hacktricks.xyz/linux-hardening/privilege-escalation |
 | TryHackMe Linux PrivEsc | https://tryhackme.com/room/linprivesc |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [Linux PrivEsc Full Course](https://www.youtube.com/watch?v=ZTnwg3qCdVM) | TCM Security | The definitive free course — every technique you’ll need |
+| [LinPEAS Walkthrough](https://www.youtube.com/watch?v=bBMPCzjca_s) | HackerSploit | How to interpret LinPEAS output and pick the best vector |
+| [GTFOBins sudo and SUID Escalation](https://www.youtube.com/watch?v=IgHDLpOzPMM) | HackerSploit | Quick, focused — covers the most common PrivEsc vectors |
 
 ### Step 1: Run LinPEAS
 ```bash
@@ -148,6 +174,13 @@ Got low-priv shell?
 | HackTricks — Windows PrivEsc | https://book.hacktricks.xyz/windows-hardening/privilege-escalation |
 | TryHackMe Windows PrivEsc | https://tryhackme.com/room/windows10privesc |
 
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [Windows PrivEsc for Beginners](https://www.youtube.com/watch?v=uTcrbNBcoxQ) | TCM Security | Covers unquoted paths, service permissions, AlwaysInstallElevated |
+| [Token Impersonation with PrintSpoofer](https://www.youtube.com/watch?v=5gMsE0gu5ko) | TCM Security | SeImpersonatePrivilege — the most common Windows PrivEsc vector |
+| [WinPEAS Walkthrough](https://www.youtube.com/watch?v=1xorYFAFT5c) | HackerSploit | How to run WinPEAS and read the output effectively |
+
 ### Running WinPEAS
 ```powershell
 # Download to target (from attacker's HTTP server)
@@ -218,6 +251,12 @@ PrintSpoofer64.exe -i -c cmd
 | Meterpreter Post Modules | https://docs.metasploit.com/docs/using-metasploit/basics/using-meterpreter.html |
 | Chisel (Port Forwarding) | https://github.com/jpillora/chisel |
 | HackTricks — Pivoting | https://book.hacktricks.xyz/generic-methodologies-and-resources/tunneling-and-port-forwarding |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [Pivoting Explained — Chisel Tunneling](https://www.youtube.com/watch?v=Yp4oxoQIBAM) | TCM Security | Chisel-based pivoting to reach internal networks |
+| [Post Exploitation with Meterpreter](https://www.youtube.com/watch?v=mTMUm_a6cFo) | HackerSploit | Credential harvesting, lateral movement from a Meterpreter shell |
 
 ### Credential Harvesting
 ```bash

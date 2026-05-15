@@ -5,6 +5,27 @@
 
 ---
 
+## 🎓 Phase 1 Core Resources — Watch / Study Before or During Each Module
+
+### 🆓 Free Full Courses
+| Course | Platform | Duration | URL |
+|--------|----------|----------|---------|
+| **Ethical Hacker** (Cisco Official) | Cisco Networking Academy | ~70 hrs | https://skillsforall.com/course/ethical-hacker |
+| **Practical Security Fundamentals** | TCM Security Academy (Free Tier) | Self-paced | https://academy.tcm-sec.com/p/practical-security-fundamentals |
+| **Linux 100: Fundamentals** | TCM Security Academy (Free Tier) | Self-paced | https://academy.tcm-sec.com/p/linux-101 |
+
+### 📺 YouTube Channels to Subscribe To (Use Throughout All Phases)
+| Channel | Focus | URL |
+|---------|-------|-----|
+| **NetworkChuck** | Beginner-friendly hacking + Kali setup | https://www.youtube.com/@NetworkChuck |
+| **TCM Security (The Cyber Mentor)** | Full ethical hacking courses, methodology | https://www.youtube.com/@TCMSecurityAcademy |
+| **John Hammond** | CTF walkthroughs, tools, real-world hacking | https://www.youtube.com/@_JohnHammond |
+| **HackerSploit** | Practical tutorials, Metasploit, web hacking | https://www.youtube.com/@HackerSploit |
+| **IppSec** | HTB machine walkthroughs (Phases 4-6) | https://www.youtube.com/@ippsec |
+| **David Bombal** | Networking, Wireshark, tool deep-dives | https://www.youtube.com/@davidbombal |
+
+---
+
 ## 📚 What You'll Learn
 
 - How to set up and optimize Kali Linux as an attack machine
@@ -25,6 +46,13 @@ Get a hardened, optimized Kali Linux attack machine running.
 | Kali on WSL2 | Official Docs | https://www.kali.org/docs/wsl/wsl-preparations/ | Free |
 | VirtualBox | Hypervisor | https://www.virtualbox.org/wiki/Downloads | Free |
 | Kali Linux Revealed (Book) | Free Book | https://kali.training/downloads/Kali-Linux-Revealed-1st-edition.pdf | Free |
+
+### 📺 Watch These First
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [How to install Kali Linux in VirtualBox (2024)](https://www.youtube.com/watch?v=l9vY3RNOROU) | NetworkChuck | Step-by-step VM setup exactly as you'll do it |
+| [I became an ethical hacker - here's how](https://www.youtube.com/watch?v=fNzpcB7ODxQ) | NetworkChuck | Motivating overview of the learning path |
+| [How to make your Kali Linux terminal look AMAZING](https://www.youtube.com/watch?v=0A7gVDL_PmU) | David Bombal | Terminal power-up with Zsh + customization |
 
 ### Steps
 
@@ -81,7 +109,14 @@ Understand the professional framework that separates ethical hackers from script
 |----------|------|-----|------|
 | PTES Technical Guidelines | Official Spec | http://www.pentest-standard.org/index.php/Main_Page | Free |
 | OWASP Testing Guide v4.2 | Free PDF | https://owasp.org/www-project-web-security-testing-guide/ | Free |
-| TCM Security — Practical Ethical Hacking Course | Course (paid but excellent) | https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course | ~$30 |
+| TCM Security — Practical Ethical Hacking Course | Course (paid) | https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course | ~$30 |
+| Cisco Ethical Hacker (Module 1 — Intro & Scope) | Free Course | https://skillsforall.com/course/ethical-hacker | Free |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [5 CRUCIAL Habits of Real Penetration Testers](https://www.youtube.com/watch?v=2CqXRVEEqnU) | TCM Security | Builds the professional mindset before you touch a single tool |
+| [So you want to be a hacker? Roadmap 2024](https://www.youtube.com/watch?v=6J6jUAYZTis) | NetworkChuck | Great overview of the full learning journey |
 
 ### The 7 Phases of PTES
 
@@ -119,6 +154,14 @@ Know what each tool does and when to use it.
 | Nmap Official Documentation | Docs | https://nmap.org/book/toc.html | Free |
 | Metasploit Unleashed | Free Course | https://www.offsec.com/metasploit-unleashed/ | Free |
 | Wireshark Learn | Official Docs | https://www.wireshark.org/docs/ | Free |
+
+### 📺 Watch These
+| Video | Channel | Why Watch |
+|-------|---------|----------|
+| [NMAP Tutorial to find Network Vulnerabilities](https://www.youtube.com/watch?v=4t4kBkMsDbQ) | NetworkChuck | Best beginner Nmap overview, covers all core flags |
+| [Burp Suite Tutorial for Beginners](https://www.youtube.com/watch?v=G3hpAeoZ4ek) | HackerSploit | Full Burp Suite setup and interception walkthrough |
+| [Wireshark Tutorial for Beginners](https://www.youtube.com/watch?v=lb1Dw0elw0Q) | David Bombal | Read real network traffic, understand HTTP/HTTPS |
+| [Metasploit for Beginners](https://www.youtube.com/watch?v=8lR27r8Y_ik) | HackerSploit | First Metasploit session — modules, payloads, sessions |
 
 ### Tool Primer
 
